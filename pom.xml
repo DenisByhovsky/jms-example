@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.byhovsky.rabbit</groupId>
+    <artifactId>rabbitmq-example</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <properties>
+        <rabbitmq.ver>3.0.4</rabbitmq.ver>
+        <commons.ver>2.6</commons.ver>
+    </properties>
+    <dependencies>
+        <dependency>
+            <groupId>com.rabbitmq</groupId>
+            <artifactId>amqp-client</artifactId>
+            <version>${rabbitmq.ver}</version>
+        </dependency>
+        <dependency>
+            <groupId>commons-lang</groupId>
+            <artifactId>commons-lang</artifactId>
+            <version>${commons.ver}</version>
+        </dependency>
+    </dependencies>
+
+
+</project>

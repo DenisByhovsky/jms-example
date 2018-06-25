@@ -1,0 +1,17 @@
+
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# virtual machine crash logs
+/hs_err_pid*
+
+target
+logs
+lib
+
+.idea
+*.iml
